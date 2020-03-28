@@ -1,0 +1,19 @@
+.navbar {
+  color: #ffffff;
+  margin: auto 0;
+  width: 756px;
+  height: 35px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding-right: 60px;
+}
+
+/* .fixed {
+  padding-right: -60px;
+} */

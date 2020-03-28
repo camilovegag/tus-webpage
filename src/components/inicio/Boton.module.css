@@ -1,0 +1,16 @@
+.boton {
+  border: #f8cd20 solid 5px;
+  color: #f8cd20;
+  font-size: 25px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+}
+
+.boton:hover {
+  background-color: #f8cd20;
+  color: #fff;
+}
