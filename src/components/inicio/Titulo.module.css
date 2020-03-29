@@ -1,12 +1,17 @@
 .titulo {
-  color: #ffffff;
   width: 804px;
   height: 227px;
-  text-align: center;
-  line-height: 100px;
+}
+
+.historia {
+  width: 786px;
+  height: 127px;
 }
 
 h1 {
+  color: #ffffff;
+  line-height: 100px;
+  text-align: center;
   font-size: 90px;
   font-weight: 300;
 }
