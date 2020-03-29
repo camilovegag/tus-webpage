@@ -1,10 +1,8 @@
 import React from "react";
 
-import styles from "./Titulo.module.css";
-
 function Titulo(props) {
   return (
-    <div className={styles.titulo}>
+    <div>
       <h1>{props.texto}</h1>
     </div>
   );

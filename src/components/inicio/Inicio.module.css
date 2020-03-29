@@ -1,3 +1,8 @@
+.inicio {
+  width: 1920px;
+  height: 3400px;
+}
+
 .bg_portada {
   display: flex;
   flex-direction: column;
@@ -15,4 +20,13 @@
   align-items: center;
   width: 1920px;
   height: 1080px;
+}
+
+.bg_escuchar {
+  background-image: url(../images/bg-escuchar.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+  height: 950px;
 }

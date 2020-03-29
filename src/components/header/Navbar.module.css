@@ -14,6 +14,6 @@ li {
   padding-right: 60px;
 }
 
-/* .fixed {
-  padding-right: -60px;
-} */
+li:hover {
+  opacity: 0.8;
+}

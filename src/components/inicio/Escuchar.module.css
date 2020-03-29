@@ -1,0 +1,10 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 948px;
+  height: 377px;
+  position: relative;
+  left: 454px;
+}

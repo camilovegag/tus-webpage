@@ -1,0 +1,6 @@
+.redes {
+  display: flex;
+  justify-content: space-between;
+  width: 520px;
+  height: 100px;
+}

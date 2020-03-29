@@ -1,22 +1,22 @@
 import React from "react";
 
-import styles from "./Portada.module.css";
+import styles from "./Escuchar.module.css";
 import stylesTitulo from "./Titulo.module.css";
 import stylesBoton from "./Boton.module.css";
 import Titulo from "./Titulo.jsx";
 import Boton from "./Boton.jsx";
 
-function Portada() {
+function Escuchar() {
   return (
-    <div className={styles.portada}>
+    <div className={styles.contenedor}>
       <div className={stylesTitulo.escuchar}>
-        <Titulo texto="Tuna Universidad de La Sabana" />
+        <Titulo texto="!Ya puedes escuchar nuestras canciones!" />
       </div>
       <div className={stylesBoton.boton}>
-        <Boton texto="Contáctanos" />
+        <Boton texto="Escuchar" />
       </div>
     </div>
   );
 }
 
-export default Portada;
+export default Escuchar;
