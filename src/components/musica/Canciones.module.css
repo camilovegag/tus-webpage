@@ -1,0 +1,12 @@
+.canciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.contenedor {
+  width: 1500px;
+  height: 166px;
+  margin-top: 50px;
+}

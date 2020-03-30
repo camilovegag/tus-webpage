@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import styles from "./Portada.module.css";
 import stylesTitulo from "./Titulo.module.css";
@@ -12,9 +13,11 @@ function Portada() {
       <div className={stylesTitulo.escuchar}>
         <Titulo texto="Tuna Universidad de La Sabana" />
       </div>
-      <div className={stylesBoton.boton}>
-        <Boton texto="Contáctanos" />
-      </div>
+      <Link to="/contacto">
+        <div className={stylesBoton.boton}>
+          <Boton texto="Contáctanos" />
+        </div>
+      </Link>
     </div>
   );
 }
