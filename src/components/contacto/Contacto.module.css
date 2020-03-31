@@ -1,0 +1,72 @@
+* {
+  font-weight: 300;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1920px;
+  height: 2450px;
+}
+.header {
+  width: 1920px;
+  height: 300px;
+  background-image: url(../images/bg-header-contacto.png);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  width: 1468px;
+  height: 1613px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  height: 1364px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1100px;
+  height: 191px;
+  margin-top: 50px;
+}
+
+.smallContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 191px;
+}
+
+.messageContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1100px;
+  height: 391px;
+}
+
+.nombre {
+  display: flex;
+  margin-top: 50px;
+  width: 500px;
+}
+.correo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 500px;
+}

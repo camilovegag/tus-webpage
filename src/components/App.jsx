@@ -6,7 +6,7 @@ import Inicio from "./inicio/Inicio.jsx";
 import Musica from "./musica/Musica.jsx";
 import Galeria from "./galeria/Galeria.jsx";
 import Integrantes from "./integrantes/Integrantes.jsx";
-// import Contacto from "./contacto/Contacto.jsx";
+import Contacto from "./contacto/Contacto.jsx";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/musica" component={Musica} />
           <Route path="/galeria" component={Galeria} />
           <Route path="/integrantes" component={Integrantes} />
-          {/* <Route path="/contacto" component={Contacto} /> */}
+          <Route path="/contacto" component={Contacto} />
         </Switch>
       </div>
     </Router>
