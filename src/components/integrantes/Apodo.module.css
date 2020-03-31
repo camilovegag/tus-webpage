@@ -1,0 +1,12 @@
+.apodo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(64, 64, 64, 0.7);
+  color: #ffffff;
+  width: 300px;
+  height: 70px;
+  font-weight: 300;
+  margin-top: 80px;
+}

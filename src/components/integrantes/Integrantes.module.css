@@ -1,0 +1,51 @@
+.integrantes {
+  width: 1920px;
+  height: 4299px;
+}
+.header {
+  width: 1920px;
+  height: 300px;
+  background-image: url(../images/bg-header-integrantes.png);
+}
+
+.cjb {
+  display: flex;
+  width: 1920px;
+  height: 1200px;
+}
+
+.bb {
+  display: flex;
+  width: 1920px;
+  height: 926px;
+}
+
+.jlu {
+  display: flex;
+  height: 1920px;
+  height: 797px;
+}
+
+.wpb {
+  display: flex;
+  height: 1920px;
+  height: 797px;
+}
+
+.top {
+  width: 640px;
+  height: 1200px;
+}
+
+.mid1 {
+  width: 1280px;
+  height: 962px;
+}
+.mid2 {
+  width: 640px;
+  height: 962px;
+}
+.bot {
+  width: 640px;
+  height: 797px;
+}
