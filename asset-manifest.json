@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/tus-webpage/static/css/main.7a9a6899.chunk.css",
+    "main.js": "/tus-webpage/static/js/main.443b85d6.chunk.js",
+    "main.js.map": "/tus-webpage/static/js/main.443b85d6.chunk.js.map",
+    "runtime-main.js": "/tus-webpage/static/js/runtime-main.72e3876b.js",
+    "runtime-main.js.map": "/tus-webpage/static/js/runtime-main.72e3876b.js.map",
+    "static/js/2.e2e45b41.chunk.js": "/tus-webpage/static/js/2.e2e45b41.chunk.js",
+    "static/js/2.e2e45b41.chunk.js.map": "/tus-webpage/static/js/2.e2e45b41.chunk.js.map",
+    "index.html": "/tus-webpage/index.html",
+    "precache-manifest.cee96b3a658523967d612e961b92c552.js": "/tus-webpage/precache-manifest.cee96b3a658523967d612e961b92c552.js",
+    "service-worker.js": "/tus-webpage/service-worker.js",
+    "static/css/main.7a9a6899.chunk.css.map": "/tus-webpage/static/css/main.7a9a6899.chunk.css.map",
+    "static/js/2.e2e45b41.chunk.js.LICENSE.txt": "/tus-webpage/static/js/2.e2e45b41.chunk.js.LICENSE.txt",
+    "static/media/barrica.png": "/tus-webpage/static/media/barrica.aefb77e7.png",
+    "static/media/beatlejuice.png": "/tus-webpage/static/media/beatlejuice.1cb31411.png",
+    "static/media/betun.png": "/tus-webpage/static/media/betun.934340c3.png",
+    "static/media/Inicio.module.css": "/tus-webpage/static/media/bg-portada.74cf29d7.png",
+    "static/media/Contacto.module.css": "/tus-webpage/static/media/bg-header-contacto.f7219b6a.png",
+    "static/media/Galeria.module.css": "/tus-webpage/static/media/bg-header-galeria.3b6cae12.png",
+    "static/media/Integrantes.module.css": "/tus-webpage/static/media/bg-header-integrantes.cc6f0d8c.png",
+    "static/media/Musica.module.css": "/tus-webpage/static/media/bg-header-musica.508154ae.png",
+    "static/media/boyaqui.png": "/tus-webpage/static/media/boyaqui.5fb4e9a4.png",
+    "static/media/chorri.png": "/tus-webpage/static/media/chorri.9bda7d28.png",
+    "static/media/jhonson.png": "/tus-webpage/static/media/jhonson.da6b6320.png",
+    "static/media/junior.png": "/tus-webpage/static/media/junior.5d3ab7d7.png",
+    "static/media/locomia.png": "/tus-webpage/static/media/locomia.90ab6ea1.png",
+    "static/media/logo.png": "/tus-webpage/static/media/logo.07aafd50.png",
+    "static/media/pinzas.png": "/tus-webpage/static/media/pinzas.9b9aac67.png",
+    "static/media/up.png": "/tus-webpage/static/media/up.993c741c.png",
+    "static/media/wolowitz.png": "/tus-webpage/static/media/wolowitz.4205147a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72e3876b.js",
+    "static/js/2.e2e45b41.chunk.js",
+    "static/css/main.7a9a6899.chunk.css",
+    "static/js/main.443b85d6.chunk.js"
+  ]
+}
