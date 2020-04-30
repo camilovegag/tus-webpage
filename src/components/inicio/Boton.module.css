@@ -14,3 +14,21 @@
 .boton:hover {
   border: 2px solid #fff;
 }
+
+.botonC {
+  background-color: #f8b400;
+  border: 2px solid #f8b400;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  margin-top: 50px;
+}
+
+.botonC:hover {
+  border: 2px solid #fff;
+}

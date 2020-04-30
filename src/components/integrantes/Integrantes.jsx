@@ -24,7 +24,7 @@ function Integrantes() {
       <div className={styles.cjb}>
         <Integrante className={styles.top} imagen={chorri} apodo="Chorri" />
         <Integrante className={styles.top} imagen={junior} apodo="Junior" />
-        <Integrante className={styles.top} imagen={betun} apodo="Betun" />
+        <Integrante className={styles.top} imagen={betun} apodo="Betún" />
       </div>
       <div className={styles.bb}>
         <Integrante className={styles.mid} imagen={beatlejuice} apodo="Beatlejuice" />

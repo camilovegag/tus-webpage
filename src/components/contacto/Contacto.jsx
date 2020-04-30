@@ -1,54 +1,55 @@
 import React from "react";
-
 import styles from "./Contacto.module.css";
 import stylesBoton from "../inicio/Boton.module.css";
-import Header from "../header/Header";
-import Subtitulo from "../musica/Subtitulo";
-import Texto from "./Texto.jsx";
-import Campo from "./Campo.jsx";
-// import Drop from "./Drop.jsx";
-import Boton from "../inicio/Boton";
-import Footer from "../footer/Footer";
-function Contacto() {
+import Boton from "../inicio/Boton.jsx";
+import Header from "../header/Header.jsx";
+import Footer from "../footer/Footer.jsx";
+
+const Contacto = () => {
   return (
-    <div className={styles.contacto}>
+    <div>
       <div className={styles.header}>
         <Header />
       </div>
-      <div className={styles.formContainer}>
-        <div className={styles.subtitulo}>
-          <Subtitulo texto="Para contactos puedes comunicarte a los números 3041030702 - 3214175886" />
+      {/* form */}
+      <div className={styles.form}>
+        {/* titulo */}
+        <div className={styles.titulo}>
+          <p>Para contactos puedes comunicarte a los números 3041030702 - 3214175886</p>
         </div>
-        <div className={styles.form}>
-          <div className={styles.container}>
-            <Texto texto="Nombre *" />
-            <div className={styles.nombre}>
-              <Campo placeholder="Tu nombre" />
-              <Campo placeholder="Tu apellido" />
+        {/* campos */}
+        <div className={styles.campos}>
+          <div className={styles.nombre}>
+            <p>Nombre *</p>
+            <div className={styles.inputs}>
+              <input id="nombre" type="text" placeholder="Tu nombre" />
+              <input id="apellido" type="text" placeholder="Tu apellido" />
             </div>
           </div>
-          <div className={styles.container}>
-            <Texto texto="Correo electrónico *" />
-            <div className={styles.correo}>
-              <Campo placeholder="alguien@ejemplo.com" className={styles.correo} />
-            </div>
+          <div className={styles.mail}>
+            <p>Correo electrónico *</p>
+            <input type="text" placeholder="alguien@ejemplo.com" />
           </div>
-          <div className={styles.smallContainer}>
-            <Texto texto="Propósito" />
-            <Campo placeholder="Contratar" className={styles.drop} />
+          <div className={styles.proposito}>
+            <p>Propósito</p>
+            <select name="proposito" id="">
+              <option value="contratacion">Contratación</option>
+              <option value="festival">Festival</option>
+              <option value="otro">Otro</option>
+            </select>
           </div>
-          <div className={styles.messageContainer}>
-            <Texto texto="Mensaje *" />
-            <Campo placeholder="Tu mensaje" className={styles.mensaje} />
+          <div className={styles.mensaje}>
+            <p>Mensaje *</p>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje" maxLength="500" />
           </div>
-          <div className={stylesBoton.boton}>
-            <Boton texto="Enviar" />
+          <div className={stylesBoton.botonC}>
+            <Boton texto="Contáctanos" />
           </div>
         </div>
       </div>
       <Footer />
     </div>
   );
-}
+};
 
 export default Contacto;

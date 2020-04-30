@@ -3,7 +3,7 @@ import React from "react";
 function Boton(props) {
   return (
     <div>
-      <p>{props.texto}</p>
+      <span>{props.texto}</span>
     </div>
   );
 }
